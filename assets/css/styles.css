@@ -644,56 +644,40 @@ input {
   padding: .75rem 1rem;
 }
 
-/*=============== SUBSCRIBE ===============*/
-.subscribe__bg {
+/*=============== signup ===============*/
+.signup__bg {
   background-color: var(--first-color-second);
   padding: 2.5rem 0;
 }
 
-.subscribe__title, 
-.subscribe__description {
+.signup__title, 
+.signup__description {
   color: var(--white-color);
 }
 
-.subscribe__description {
+.signup__description {
   text-align: center;
   margin-bottom: var(--mb-2-5);
 }
 
-.subscribe__form {
+.signup__form {
   background-color: var(--input-color);
   padding: .5rem;
   display: flex;
   justify-content: space-between;
 }
 
-.subscribe__input {
+.signup__input {
   width: 70%;
   padding-right: .5rem;
   background-color: var(--input-color);
   color: var(--text-color);
 }
 
-.subscribe__input::placeholder {
+.signup__input::placeholder {
   color: var(--text-color);
 }
 
-/*=============== SPONSORS ===============*/
-.sponsor__container {
-  grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
-  justify-items: center;
-  row-gap: 3.5rem;
-}
-
-.sponsor__content:hover .sponsor__img {
-  filter: invert(0.5);
-}
-
-.sponsor__img {
-  width: 90px;
-  filter: invert(0.7);
-  transition: var(--img-transition);
-}
 
 /*=============== FOOTER ===============*/
 .footer__container {
@@ -840,7 +824,7 @@ input {
   .place__container {
     grid-template-columns: repeat(3, max-content);
   }
-  .subscribe__form {
+  .signup__form {
     width: 470px;
     margin: 0 auto;
   }
@@ -943,15 +927,15 @@ input {
   .experience__overlay:nth-child(2) {
     width: 160px;
   }
-  .subscribe__bg {
+  .signup__bg {
     background: none;
     padding: 0;
   }
-  .subscribe__container {
+  .signup__container {
     background-color: var(--first-color-second);
     padding: 3.5rem 0;
   }
-  .subscribe__input {
+  .signup__input {
     padding: 0 .5rem;
   }
   .footer__rights {
